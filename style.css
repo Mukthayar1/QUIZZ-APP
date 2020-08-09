@@ -1,0 +1,49 @@
+.main_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+.quiz{
+    background-color: blanchedalmond;
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-rows: 60px auto;
+}
+
+.header{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.body{
+    background-color: lightskyblue;
+    padding: 50PX;
+}
+
+.list{
+    list-style-type: none;
+    width: 50%;
+}
+
+.option{
+    background-color: lightyellow;
+    margin-bottom: 50px;
+   padding: 15px 20px;
+}
+
+.btn{
+    background-color: mediumblue;
+    color: wheat;
+
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
